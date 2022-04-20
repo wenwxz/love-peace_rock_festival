@@ -1,0 +1,349 @@
+* {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.line_up_container {
+  max-width: 1920px;
+}
+
+.line_up_container .lineTableSetting {
+  height: 90vh;
+  position: relative;
+  left: 9vh;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.line_up_container .lineTableSettingNight {
+  height: 100vh;
+  position: relative;
+  left: 9vh;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.line_up_container .designLineUp {
+  position: relative;
+  top: 14vh;
+  margin-left: 10vh;
+  margin-top: -5vh;
+  width: 11%;
+}
+
+.line_up_container .allTable {
+  position: relative;
+  left: -9vh;
+}
+
+.line_up_container .giveMeSpace {
+  position: relative;
+  top: 4vh;
+}
+
+.line_up_container .daySunBox {
+  position: relative;
+  left: 59vh;
+  width: 50vh;
+  height: 10vh;
+  padding-top: 2vh;
+  padding-right: 2vh;
+}
+
+.line_up_container .daySunBox .sun {
+  position: relative;
+  height: 15vh;
+  right: 20vh;
+  float: left;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.line_up_container .daySunBox .sun2 {
+  position: relative;
+  height: 15vh;
+  right: 73px;
+  float: left;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.line_up_container .daySunBox .moon {
+  position: relative;
+  height: 15vh;
+  right: 36vh;
+  top: 5vh;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0%;
+}
+
+.line_up_container .daySunBox .moon-Clicked {
+  position: relative;
+  height: 15vh;
+  right: 30vh;
+  top: 5vh;
+  opacity: 100%;
+  -webkit-transform: translate(-152px, -40px);
+          transform: translate(-152px, -40px);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.line_up_container .daySunBox .moon2 {
+  position: relative;
+  height: 15vh;
+  right: 24vh;
+  top: 5vh;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in 1s, 1s;
+  transition: opacity 1s ease-in 1s, 1s;
+  z-index: -1;
+  background-color: gray;
+}
+
+.line_up_container .normalType {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.line_up_container .whyTest {
+  background-color: #474747;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.line_up_container .whyTest .inTableTime {
+  color: #FFFFFF;
+}
+
+.line_up_container .whyTest .hrefColor {
+  color: #FFFFFF;
+  border: 1px solid;
+}
+
+.line_up_container .sun-Clicked {
+  -webkit-transform: translate(-50px, 50px);
+          transform: translate(-50px, 50px);
+  opacity: 0%;
+}
+
+.line_up_container .btnG {
+  position: relative;
+  left: 60vh;
+  top: -2vh;
+}
+
+.line_up_container .btnG .campDay1 {
+  height: 4vh;
+  right: 5vh;
+  margin-right: 2vh;
+}
+
+.line_up_container .btnG .campDay2 {
+  height: 4vh;
+}
+
+.line_up_container #lineUpTitle {
+  border-bottom: 10px;
+}
+
+.line_up_container table {
+  width: 120vh;
+  left: 10vh;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.line_up_container .stageColorM {
+  height: 4vh;
+  text-align: center;
+  padding-top: -1vh;
+  font-size: 24px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.line_up_container .stageColor {
+  background-color: #c6c6c6;
+  height: 4vh;
+  text-align: center;
+  padding-top: -1vh;
+  font-size: 24px;
+  border-radius: 4px;
+}
+
+.line_up_container .displayNone {
+  display: none;
+}
+
+.line_up_container .timeTitle {
+  background-color: #c6c6c6;
+  position: relative;
+  height: 4vh;
+  top: 1.3vh;
+  width: 6vh;
+  font-size: 1.2em;
+  border-radius: 4px;
+}
+
+.line_up_container b {
+  position: relative;
+  top: -0.6vh;
+  right: 0.1;
+}
+
+.line_up_container #cantSee {
+  visibility: hidden;
+}
+
+.line_up_container .inTableTime {
+  font-size: 1.5vh;
+}
+
+.line_up_container .hrefColor {
+  color: black;
+  font-size: 0.9em;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  margin-top: 0.6vh;
+  width: 15vh;
+  font-weight: 600;
+}
+
+.line_up_container .iAmHere {
+  width: 10vw;
+  margin-left: 28vw;
+  margin-top: 6vh;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.line_up_container .iAmHere .hereBtn {
+  position: relative;
+  width: 25vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.line_up_container .iAmHere .fontAwe {
+  color: #555454;
+}
+
+.line_up_container .hereBtn:hover {
+  border: 1px solid #131313;
+  position: relative;
+  bottom: 2px;
+  background-color: #555454;
+}
+
+.line_up_container .hereBtn:hover .fontAwe {
+  color: white;
+}
+
+.line_up_container .hereBtn2:hover {
+  border: 1px solid #131313;
+  position: relative;
+  bottom: 2px;
+  background-color: #555454;
+}
+
+.line_up_container .hereBtn2:hover .fontAwe {
+  color: white;
+}
+
+.line_up_container .iAmHere2 {
+  width: 10vw;
+  margin-left: 28vw;
+  margin-top: 6vh;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.line_up_container .iAmHere2 .hereBtn2 {
+  border: 1px solid #131313;
+  position: relative;
+  width: 25vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+}
+
+.line_up_container tr {
+  height: 7vh;
+  width: 70vw;
+  margin-bottom: 5px;
+}
+
+.line_up_container tr th {
+  margin-top: 1vh;
+}
+
+.line_up_container .bgc {
+  position: relative;
+}
+
+.line_up_container .bgc::after {
+  position: relative;
+  background-color: #d8d8d8;
+  border-radius: 10px;
+  height: 105%;
+  width: 56vw;
+  top: -6.74vh;
+  z-index: -1;
+  content: "";
+}
+
+.line_up_container .spec2 {
+  position: relative;
+}
+
+.line_up_container .spec2::after {
+  position: relative;
+  background-color: #d8d8d8;
+  width: 56vw;
+  height: 107%;
+  content: "";
+  border-radius: 10px;
+  top: -8.2vh;
+  z-index: -1;
+}
+
+.line_up_container .heart {
+  padding: 2vh;
+  font-size: 1em;
+  margin-left: 5px;
+  position: relative;
+}
+
+.line_up_container .heart:hover {
+  color: #f05757;
+  cursor: pointer;
+}
+
+.line_up_container .addLoved {
+  display: none;
+}
+
+.line_up_container .loved {
+  font-size: 1em;
+  margin-left: 5px;
+  color: #f05757;
+  cursor: pointer;
+  visibility: hidden;
+  position: relative;
+}
+
+.line_up_container .forChilli .hrefColor {
+  margin-top: -0.5vh;
+}
+/*# sourceMappingURL=LineUp.css.map */

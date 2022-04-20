@@ -1,0 +1,99 @@
+.modal_container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width */
+  /* Handle */
+}
+
+.modal_container.component_show {
+  opacity: 1;
+  pointer-events: initial;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.modal_container.component_hide {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.modal_container .modal_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 11;
+  border-radius: 5px;
+}
+
+.modal_container .modal_inner.modal_show {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.modal_container .modal_inner.modal_hide {
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.modal_container .background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 10;
+  cursor: initial;
+}
+
+.modal_container .background.full_screen_background {
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal_container ::-webkit-scrollbar {
+  width: 14px;
+  height: 18px;
+  background-color: transparent;
+  border: 4px solid transparent;
+  border-radius: 5px;
+}
+
+.modal_container ::-webkit-scrollbar-thumb {
+  border: 4px solid transparent;
+  background-clip: padding-box;
+  -webkit-border-radius: 10px;
+  background-color: var(--color-light-green);
+}
+
+.modal_container ::-webkit-scrollbar-button {
+  width: 20px;
+  display: none;
+}
+
+.modal_container ::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+/*# sourceMappingURL=TicketQrcode.css.map */

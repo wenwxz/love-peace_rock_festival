@@ -1,0 +1,120 @@
+.User_container {
+  font-size: 1rem;
+  max-width: 1920px;
+  min-height: calc(100vh - 200px);
+  width: 100%;
+  background-image: url("./../../image/vs_morning.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.User_container #now_location {
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.User_container #now_location span {
+  display: inline-block;
+  margin: 10px;
+}
+
+.User_container #sign_info {
+  width: 35vw;
+  height: 60%;
+  margin: 3% auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 25px;
+}
+
+.User_container #sign_info div {
+  width: 250px;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.User_container #sign_info .signin_label {
+  display: inline-block;
+  width: 250px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.User_container #sign_info .password_box {
+  position: relative;
+  text-align: right;
+}
+
+.User_container #sign_info .password_box .faEye_box {
+  position: absolute;
+  top: 2px;
+  right: 7px;
+  width: 10%;
+  cursor: pointer;
+}
+
+.User_container #sign_info #member_account {
+  width: 250px;
+  height: 30px;
+  text-align: left;
+}
+
+.User_container #sign_info #member_password {
+  width: 250px;
+  height: 30px;
+  text-align: left;
+}
+
+.User_container #sign_info #submit_info {
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: 20px auto 10px auto;
+}
+
+.User_container #sign_info #join_member {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.User_container #sign_info #join_member a {
+  color: #000;
+}
+
+.User_container #sign_info #another_login {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ff4a4a;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  padding-top: 0px;
+}
+
+.User_container #sign_info #another_login .my_google {
+  width: 50px;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0px;
+}
+
+.User_container #sign_info #another_login .my_sign {
+  line-height: 35px;
+  margin-left: 5px;
+  padding-top: 0px;
+}
+/*# sourceMappingURL=signIn.css.map */

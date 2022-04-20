@@ -1,0 +1,318 @@
+@charset "UTF-8";
+.member_order_container {
+  max-width: 100%;
+  min-height: calc(100vh - 170px);
+  font-size: 1rem;
+}
+
+.member_order_container ::-webkit-scrollbar {
+  width: 3px;
+}
+
+.member_order_container ::-webkit-scrollbar-thumb {
+  background: #555151;
+  border-radius: 2px;
+}
+
+.member_order_container #member_container {
+  background-image: url("../../image/vs_morning.svg");
+  background-repeat: no-repeat;
+  background-position: 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+
+.member_order_container #member_container .con_both {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 20px;
+  /* 左導覽列start */
+  /* 左導覽列end */
+}
+
+.member_order_container #member_container .con_both.con_left {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  padding-top: 70px;
+  /* 左導覽列start */
+}
+
+.member_order_container #member_container .con_both.con_left .my_img {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  border-radius: 50%;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.member_order_container #member_container .con_both.con_left .my_img :hover .wrap_img {
+  display: block;
+}
+
+.member_order_container #member_container .con_both.con_left .my_img .wrap_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.member_order_container #member_container .con_both.con_left .member_hi {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.member_order_container #member_container .con_both.con_left .member_hi span span {
+  font-size: 2rem;
+}
+
+.member_order_container #member_container .con_both.con_left #member_list {
+  background-color: #fff;
+  width: 60%;
+  text-align: center;
+  margin: 30px auto;
+  margin-top: 40px;
+  border: 1px solid lightgrey;
+}
+
+.member_order_container #member_container .con_both.con_left #member_list a {
+  text-decoration: none;
+  color: #000;
+}
+
+.member_order_container #member_container .con_both.con_left #member_list :nth-child(2) {
+  background-color: #81c268;
+  border-right: 3px solid #2b9635;
+}
+
+.member_order_container #member_container .con_both.con_left #member_list div {
+  margin: 0 auto;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+.member_order_container #member_container .con_both.con_left #member_list div:hover {
+  background-color: #81c268;
+  border-right: 3px solid #2b9635;
+  cursor: pointer;
+}
+
+.member_order_container #member_container .con_both.con_left #member_logout {
+  width: 60%;
+  margin: 70px auto;
+}
+
+.member_order_container #member_container .con_both.con_left #member_logout div {
+  width: 35%;
+  padding: 5px;
+  float: left;
+  text-align: center;
+  background-color: #555151;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.member_order_container #member_container .con_both.con_right {
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+  margin-left: 20px;
+  height: 100%;
+  /* 現在位置start */
+  /* 現在位置end */
+  /* 訂單表格 start*/
+}
+
+.member_order_container #member_container .con_both.con_right #now_location {
+  margin-top: 5%;
+  text-align: left;
+}
+
+.member_order_container #member_container .con_both.con_right #now_location span {
+  display: inline-block;
+  margin: 10px;
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data {
+  width: 85%;
+  height: 75%;
+  padding-top: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data .member_order_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data .member_order_title div {
+  height: 10%;
+  width: 10%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data .member_order_content {
+  height: 80%;
+  overflow: scroll;
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data .member_order_content .order_detail_titleA {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data .member_order_content .order_detail_titleA > div {
+  height: 10%;
+  width: 10%;
+  text-align: center;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data .member_order_content .order_detail_titleA #open_open {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: lightgray;
+  text-align: center;
+  cursor: pointer;
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data .member_order_content .order_detail_bgcolor {
+  background-color: lightgrey;
+  display: none;
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data .member_order_content .order_detail_bgcolor .order_detail_titleB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data .member_order_content .order_detail_bgcolor .order_detail_titleB div {
+  height: 10%;
+  width: 10%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data .member_order_content .order_detail_bgcolor .order_detail_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.member_order_container #member_container .con_both.con_right .member_order_data .member_order_content .order_detail_bgcolor .order_detail_content div {
+  height: 10%;
+  width: 10%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.member_order_container .change_img {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.596);
+  top: 0;
+  padding-top: 100px;
+  display: none;
+}
+
+.member_order_container .change_img .change_img_content {
+  width: 40%;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+  margin-top: 160px;
+}
+
+.member_order_container .change_img .change_img_content .close_change_img {
+  text-align: right;
+  cursor: pointer;
+}
+
+.member_order_container .change_img .change_img_content .icon_imgs {
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.member_order_container .change_img .change_img_content .icon_imgs img {
+  width: 28%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.member_order_container .change_img .change_img_content .icon_check {
+  width: 120px;
+  background-color: #81c268;
+  color: #fff;
+  margin: 40px auto 20px auto;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+/*# sourceMappingURL=MemberOrder.css.map */

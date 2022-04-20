@@ -1,0 +1,50 @@
+.ticket_order_container {
+  max-width: 100%;
+  height: calc(100vh - 170px);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: "Noto Sans TC", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+
+.ticket_order_container.ticket_order_container_step_one {
+  height: 108vh;
+}
+
+.ticket_order_container .test_area {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
+
+.ticket_order_container .test_area > input {
+  margin-left: 20px;
+}
+
+.ticket_order_container .ticket_order_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 15%;
+  height: 75px;
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  background-image: url("./../../image/ticket_morning.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/*# sourceMappingURL=TicketOrder.css.map */

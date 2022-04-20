@@ -1,0 +1,231 @@
+.ticket_order_detail_container {
+  width: 100%;
+  height: calc(100vh - 200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ticket_order_detail_container .ticket_order_detail {
+  width: 75%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 5%;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  height: 75px;
+  background-image: url("./../../image/ticket_title_black.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container {
+  width: 70%;
+  height: 80%;
+  margin: 4% 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area {
+  width: 545px;
+  height: 475px;
+  /* margin: 0 10%; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: flex;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .ticket_order_detail_type {
+  width: 120px;
+  height: 35px;
+  font-size: 20px;
+  border: 1px solid #000000;
+  text-align: center;
+  line-height: 35px;
+  color: #000000;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .ticket_order_detail_info {
+  width: 100%;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .ticket_order_detail_info .info {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .ticket_order_detail_info .line {
+  border-bottom: 1px solid #767676;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .order_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .convenience_store_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .convenience_store_area .icon {
+  width: 210px;
+  height: 56px;
+  background-image: url(./../../image/store_icon.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .convenience_store_area .credit_icon {
+  width: 45px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .convenience_store_area .credit_icon.visa_icon {
+  background-image: url("./../../image/cc_visa_brands.svg");
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .convenience_store_area .credit_icon.master_icon {
+  background-image: url("./../../image/cc_mastercard_brands.svg");
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .convenience_store_area .credit_icon.jcb_icon {
+  background-image: url("./../../image/cc_jcb_brands.svg");
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .input_area {
+  width: 346px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .input_area .input_credit_card_icon {
+  width: 25px;
+  height: 21px;
+  background-image: url("./../../image/credit_card_regular.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .input_area .credit_card_account .account {
+  margin-left: 15px;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .credit_card_time_code {
+  width: 346px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .credit_card_time_code .credit_card_time {
+  width: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .text_area {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .submit_btn {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .submit_btn .submit_content {
+  width: 60px;
+  border: 1px solid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .btn_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.ticket_order_detail_container .ticket_order_detail .ticket_order_detail_content_container .ticket_order_detail_content_area .btn_area .prev_step {
+  padding: 0;
+  border: none 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  width: 126px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #9ACE86;
+  margin-right: 20px;
+  color: #ffffff;
+  margin-right: 287px;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=TicketOrderDetail.css.map */

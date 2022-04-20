@@ -1,0 +1,71 @@
+.user_panel_container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 50px 0 0 0;
+  z-index: 100;
+  position: fixed;
+  right: 82px;
+  top: 34px;
+}
+
+.user_panel_container.component_show {
+  opacity: 1;
+  pointer-events: initial;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.user_panel_container.component_hide {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.user_panel_container .user_panel_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 110;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 5px 5px -5px #333;
+          box-shadow: 0 5px 5px -5px #333;
+}
+
+.user_panel_container .user_panel_inner.panel_show {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.user_panel_container .user_panel_inner.panel_hide {
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.user_panel_container .background {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  cursor: initial;
+}
+/*# sourceMappingURL=UserPanel.css.map */

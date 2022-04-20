@@ -1,0 +1,168 @@
+.navbar_container {
+  width: 100%;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #ebebeb;
+}
+
+.navbar_container .navbar_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+  width: 1440px;
+  background-color: #ececec;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar_container .navbar_inner.navbar_inner_dark {
+  background-color: #333;
+}
+
+.navbar_container .navbar_inner .main_logo_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.navbar_container .navbar_inner .main_logo_area .main_logo {
+  background-image: url("../../../image/logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 200px;
+  height: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar_container .navbar_inner .main_logo_area .main_logo.main_logo_dark {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.navbar_container .navbar_inner .menu_item_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar_container .navbar_inner .menu_item_area.menu_item_dark .nav_item {
+  color: #c7c7c7;
+}
+
+.navbar_container .navbar_inner .menu_item_area .nav_item {
+  width: 100px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar_container .navbar_inner .menu_item_area .nav_item:last-child {
+  margin-right: 0;
+}
+
+.navbar_container .navbar_inner .func_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 240px;
+}
+
+.navbar_container .navbar_inner .func_area .icon {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.navbar_container .navbar_inner .func_area .icon.icon_cart {
+  background-image: url("https://photographycourse.net/wp-content/uploads/2010/07/CCD-Digital-camera-sensor-1.jpg");
+}
+
+.navbar_container .navbar_inner .func_area .icon.icon_user {
+  background-image: url("https://photographycourse.net/wp-content/uploads/2010/07/CCD-Digital-camera-sensor-1.jpg");
+}
+
+.navbar_container .navbar_inner .func_area .switch_toggle {
+  width: 60px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.navbar_container .navbar_inner .func_area .switch_toggle .switch_toggle_inner {
+  width: 46px;
+  height: 26px;
+  border-radius: 20px;
+  background-color: #333;
+  position: relative;
+}
+
+.navbar_container .navbar_inner .func_area .switch_toggle .switch_toggle_inner.switch_toggle_inner_dark {
+  background-color: #c7c7c7;
+}
+
+.navbar_container .navbar_inner .func_area .switch_toggle .switch_toggle_inner .round {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #c7c7c7;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.navbar_container .navbar_inner .func_area .switch_toggle .switch_toggle_inner .round.round_dark {
+  background-color: #333;
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+/*# sourceMappingURL=Festival.css.map */

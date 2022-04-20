@@ -1,0 +1,57 @@
+* {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.outsideCon {
+  margin-left: 10vh;
+}
+
+.outsideCon .myHeight {
+  width: 90%;
+  height: 60vh;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-left: 10vh;
+  left: 10.65vh;
+  top: 2vh;
+  position: relative;
+}
+
+.outsideCon .myHeight:hover {
+  margin-top: -0.5vh;
+}
+
+.outsideCon .title {
+  position: relative;
+  width: 10%;
+  margin-left: -35vh;
+}
+
+.outsideCon .traffic {
+  margin-left: 1vh;
+  margin-top: -1vh;
+  width: 185px;
+  height: 70px;
+}
+
+.outsideCon .toEvent {
+  position: relative;
+  width: 60%;
+  margin-top: 20vh;
+  margin-left: 7vh;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.outsideCon .toEvent:hover {
+  margin-top: 19.5vh;
+  border: 1px solid #757575;
+  border-radius: 10px;
+  color: black;
+}
+
+.outsideCon .popUp {
+  padding-bottom: 3vh;
+}
+/*# sourceMappingURL=traffic.css.map */

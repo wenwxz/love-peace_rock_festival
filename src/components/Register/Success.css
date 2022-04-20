@@ -1,0 +1,47 @@
+.success {
+  max-width: 1920px;
+  min-height: calc(100vh - 200px);
+  width: 100%;
+  height: 600px;
+  background-image: url("./../../image/vs_morning.svg");
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.success .success_box {
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 40px;
+  -webkit-box-shadow: 3px 3px 5px #302d2d;
+          box-shadow: 3px 3px 5px #302d2d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.success .success_box .my_icon {
+  color: #81c268;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=Success.css.map */

@@ -1,0 +1,142 @@
+#register_container {
+  font-size: 1rem;
+  max-width: 1920px;
+  min-height: calc(100vh - 200px);
+  width: 100%;
+  height: 580px;
+  background-image: url("./../../image/vs_morning.svg");
+  background-repeat: no-repeat;
+  background-position-y: 20px;
+}
+
+#register_container #register_info {
+  width: 600px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 25px;
+}
+
+#register_container #register_info #now_location {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#register_container #register_info #now_location span {
+  display: inline-block;
+  margin: 10px;
+}
+
+#register_container #register_info .register_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1rem;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#register_container #register_info .register_text .register_title {
+  margin-bottom: 15px;
+}
+
+#register_container #register_info .register_text .register_content {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+}
+
+#register_container #register_info .register_text .register_content .register_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+#register_container #register_info .register_text .register_content .register_left .register_left label {
+  display: block;
+  height: 28px;
+  text-align: left;
+  margin: 8px;
+}
+
+#register_container #register_info .register_text .register_content .register_left .red_star::before {
+  content: "*";
+  color: red;
+  font-size: 12px;
+  vertical-align: text-top;
+}
+
+#register_container #register_info .register_text .register_content .register_left .blank::before {
+  content: "*";
+  color: transparent;
+  font-size: 12px;
+}
+
+#register_container #register_info .register_text .register_content .register-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+#register_container #register_info .register_text .register_content .register-right input {
+  display: block;
+  height: 28px;
+  width: 330px;
+  margin: 8px;
+  margin-left: 20px;
+}
+
+#register_container #register_info .register_text .register_content .register-right .password_reg_box {
+  position: relative;
+  text-align: right;
+}
+
+#register_container #register_info .register_text .register_content .register-right .password_reg_box .faEye_box {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+#register_container #register_info .register_text .register_content .register-right input[type="date"] {
+  width: 330px;
+  height: 26px;
+}
+
+#register_container #register_info .register_text #my_register_button {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #81c268;
+  padding: 5px 8px;
+  color: #fff;
+}
+/*# sourceMappingURL=Register.css.map */

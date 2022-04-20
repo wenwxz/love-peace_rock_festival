@@ -1,0 +1,49 @@
+.theMarkerCon .markerSetting {
+  position: relative;
+  width: 15%;
+  z-index: 23;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.theMarkerCon .markerSetting:hover {
+  opacity: 1;
+}
+
+.theMarkerCon .camp1Marker {
+  top: -39vh;
+  left: 19vh;
+  z-index: 25;
+}
+
+.theMarkerCon .camp2Marker {
+  top: -43vh;
+  left: -1vh;
+}
+
+.theMarkerCon .camp3Marker {
+  top: -31vh;
+  left: -22vh;
+}
+
+.theMarkerCon .camp4Marker {
+  top: -31vh;
+  left: -3vh;
+}
+
+.theMarkerCon .camp5Marker {
+  top: -30vh;
+  left: -1vh;
+}
+
+.theMarkerCon .camp6Marker {
+  top: -22vh;
+  right: 29vh;
+}
+
+.theMarkerCon .camp7Marker {
+  right: -18vh;
+  top: -35vh;
+}
+/*# sourceMappingURL=marker.css.map */

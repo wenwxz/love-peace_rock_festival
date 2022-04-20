@@ -1,0 +1,112 @@
+.User_container {
+  font-size: 1rem;
+  max-width: 1920px;
+  min-height: calc(100vh - 200px);
+  width: 100%;
+  background-image: url("./../../image/vs_morning.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  #now_location {
+    margin-top: 2%;
+    padding-top: 2%;
+    text-align: center;
+
+    span {
+      display: inline-block;
+      margin: 10px;
+    }
+  }
+
+  #sign_info {
+    width: 35vw;
+    height: 60%;
+    margin: 3% auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 25px;
+    
+    div {
+      width: 250px;
+      margin: auto;
+      padding-top: 5px;
+    }
+
+    .signin_label {
+      display: inline-block;
+      width: 250px;
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    .password_box {
+      position: relative;
+      text-align: right;
+
+      .faEye_box {
+        position: absolute;
+        top: 2px;
+        right: 7px;
+        width: 10%;
+        cursor: pointer;
+      }
+    }
+
+    #member_account {
+      width: 250px;
+      height: 30px;
+      text-align: left;
+    }
+
+    #member_password {
+      width: 250px;
+      height: 30px;
+      text-align: left;
+    }
+
+    #submit_info {
+      display: block;
+      width: 100px;
+      height: 30px;
+      margin: 20px auto 10px auto;
+      
+    }
+
+    #join_member {
+      width: 40%;
+      display: flex;
+      justify-content: space-around;
+
+      a {
+        color: #000;
+      }
+    }
+
+    #another_login {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      width: 250px;
+      height: 35px;
+      display: flex;
+      background-color: #ff4a4a;
+      color: #fff;
+      padding-left: 20px;
+      padding-right: 20px;
+      cursor: pointer;
+      padding-top: 0px;
+
+      .my_google {
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        padding-top: 0px;
+      }
+
+      .my_sign {
+        line-height: 35px;
+        margin-left: 5px;
+        padding-top: 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+* {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.modal-content {
+  border-radius: 25px !important;
+  width: 53vh !important;
+}
+
+.modal-title {
+  position: relative;
+  top: -1vh;
+  padding-top: 1vh;
+  padding-left: 2vh;
+  font-weight: 700;
+  font-family: Noto Sans Kannada;
+}
+
+.modal-body {
+  position: relative;
+  top: -2vh;
+  height: auto;
+  background-color: #080304;
+}
+
+.imgBox {
+  position: relative;
+  height: 12.5em;
+  width: 1vh;
+  background-color: #525252;
+  left: 2vh;
+  top: 4.5vh;
+}
+
+.imgBox .Rise-img {
+  height: 200px;
+}
+
+.imgBox .KanaBoon {
+  height: 200px;
+}
+
+.imgBox .MWAN {
+  height: 200px;
+}
+
+.imgBox .Back-On {
+  position: relative;
+  left: 0vh;
+  padding-top: 2px;
+  height: 199px;
+}
+
+.imgBox .ashes_remain {
+  height: 200px;
+}
+
+.imgBox .MayShow {
+  height: 200px;
+}
+
+.imgBox .adjust {
+  position: relative;
+  height: 200px;
+  padding-top: 2px;
+  border-radius: 7px;
+}
+
+.mainArticle {
+  position: relative;
+  top: 7vh;
+  margin-top: 3.5em;
+  font-weight: 200;
+  left: 1.7vh;
+}
+
+.mainArticle div {
+  margin-left: 1.5vh;
+  font-family: Noto Sans Kannada;
+  width: 13.5vw;
+  height: 290px;
+  font-size: 17px;
+  text-align: start;
+  color: #ffffff;
+  padding-top: 4vh;
+}
+
+.socialMedia {
+  position: relative;
+  top: 2vh;
+}
+
+.socialMedia .mediaIcons {
+  position: relative;
+  bottom: 32vh;
+  margin-left: -2vw;
+  padding-bottom: 1vh;
+  top: -25vh;
+  margin-top: -2vh;
+}
+
+.socialMedia .mediaIcons .fbIcon {
+  margin-left: -2vh;
+}
+
+.socialMedia .mediaIcons .twitter {
+  position: relative;
+  top: 0.4vh;
+  left: -1vh;
+}
+
+.socialMedia .mediaIcons .line {
+  position: relative;
+  left: -2vh;
+  top: -0.2vh;
+}
+
+.socialMedia .spotify4Rise {
+  position: relative;
+  margin-top: -15.6vw;
+  margin-left: 10.5vw;
+  padding-bottom: 5vh;
+  left: 4vh;
+  top: -4vh;
+}
+
+.socialMedia .spotify {
+  position: relative;
+  margin-top: -15.6vw;
+  margin-left: 10.5vw;
+  padding-bottom: 5vh;
+  left: 8vh;
+}
+
+.socialMedia .spotify iframe {
+  border: 3px solid gray;
+}
+
+.modal-footer {
+  height: 2vh;
+  position: relative;
+  top: -2vh;
+  background-color: #ffffff;
+}
+
+.modal-footer img {
+  margin-left: 6.5vh;
+}
+/*# sourceMappingURL=card.css.map */
